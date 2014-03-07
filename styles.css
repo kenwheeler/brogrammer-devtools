@@ -443,10 +443,10 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
   border: none !important;
 }
 ::-webkit-scrollbar-thumb:horizontal {
-  background: #111;
+  background: #222;
 }
 ::-webkit-scrollbar-thumb:vertical {
-  background: #111;
+  background: #222;
 }
 /*Popover scrollbar overrides */
 .custom-popup-horizontal-scroll ::-webkit-scrollbar-track,
@@ -530,7 +530,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
   border-top: none !important;
 }
 .sidebar-separator {
-  background: #111 !important;
+  background: #222 !important;
   color: #cccccc !important;
   text-shadow: none !important;
   border-top: none !important;
@@ -835,7 +835,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 /* Elements Crumbs
 /************************************************/
 #elements-crumbs {
-  background: #111 !important;
+  background: #222 !important;
   border-top: 1px solid #2f2f2f !important;
   height: 19px !important;
 }
@@ -1198,7 +1198,7 @@ body:not(.undocked) .toolbar-background {
   color: #A3A3A3 !important;
 }
 .search-status-bar-summary {
-  background: #111 !important;
+  background: #222 !important;
   border-top: 1px solid #6e6e6e !important;
 }
 .search-drawer-header input[type="checkbox"].search-config-checkbox {
@@ -1218,7 +1218,7 @@ body:not(.undocked) .toolbar-background {
   border-left: 1px solid #3c3c3c !important;
 }
 .data-grid .header {
-  background: #111;
+  background: #2f2f2f;
 }
 .data-grid .header th {
   color: #e74c3c !important;
@@ -1453,7 +1453,7 @@ body:not(.undocked) .toolbar-background {
   color: #cccccc !important;
 }
 .network-summary-bar {
-  background: #111;
+  background: #222;
   border-top: 1px solid #222222 !important;
   color: #cccccc !important;
 }
@@ -1464,7 +1464,7 @@ body:not(.undocked) .toolbar-background {
   border-bottom: none !important;
 }
 .console-status-bar {
-  background: #111 !important;
+  background: #222 !important;
   border-bottom: none !important;
 }
 #console-prompt {
@@ -1579,7 +1579,7 @@ body:not(.undocked) .toolbar-background {
 #memory-graphs-container .sidebar-tree-section,
 .timeline-records-title,
 .timeline-details-view-title {
-  background: #111;
+  background: #222;
   color: #cccccc !important;
   text-shadow: none !important;
 }
@@ -1650,7 +1650,7 @@ body:not(.undocked) .toolbar-background {
   border-bottom: 1px solid #1d1d1d !important;
 }
 .panel:not(.network) #timeline-grid-header .resources-dividers-label-bar {
-  background: #111 !important;
+  background: #222 !important;
 }
 .overview-grid-dividers-background {
   background-color: red !important;
@@ -1740,7 +1740,7 @@ body:not(.undocked) .toolbar-background {
 .retainers-view-header,
 .heap-snapshot-view .class-view-toolbar,
 .timeline-frame-container {
-  background: #111 !important;
+  background: #222 !important;
   border-top: none !important;
   border-bottom: none !important;
 }
@@ -1753,7 +1753,7 @@ body.inactive .sidebar-tree-item.selected,
 /* Resources Tab
 /**********************************************/
 .resources-status-bar .status-bar {
-  background: #111 !important;
+  background: #222 !important;
   border-top: none !important;
 }
 /*-- RESOURCES CONTENT --*/
@@ -1971,7 +1971,7 @@ body.inactive .sidebar-tree-item.selected,
 }
 /*Pane Headers*/
 .sidebar-pane-title {
-  background: #111 !important;
+  background: #222 !important;
   color: #cccccc;
   border-top: 1px solid #626262 !important;
   border-bottom: 1px solid #1d1d1d !important;
@@ -1988,7 +1988,7 @@ body.inactive .sidebar-tree-item.selected,
 .sidebar-pane-toolbar > .pane-title-button.refresh {
   /*background-image: none !important;*/
   -webkit-background-position: -24px 0 !important;
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: #aaa !important;
   -webkit-mask-repeat: no-repeat !important;
 }
 .pane-title-button.add {
@@ -2002,10 +2002,13 @@ body.inactive .sidebar-tree-item.selected,
   color: #cccccc !important;
   background-color: #222222 !important;
 }
+#sources-editor-container-tabbed-pane .tabbed-pane-header {
+  margin-left: 13px;
+}
 .panel.elements .sidebar-pane-toolbar > select.select-settings {
   /*background-image: none !important; */
   -webkit-background-position: -24px 0 !important;
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: #aaa !important;
   -webkit-mask-repeat: no-repeat !important;
   -webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneSettingsButtons.png) !important;
 }
@@ -2014,7 +2017,7 @@ body.inactive .sidebar-tree-item.selected,
 }
 .panel.elements .sidebar-pane-toolbar .pane-title-button.element-state,
 .panel.elements .sidebar-pane-toolbar .pane-title-button.pane-title-button.add {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: #aaa !important;
 }
 /* Highlight in Scripts  */
 .webkit-highlighted-line.webkit-line-content {
@@ -2023,12 +2026,27 @@ body.inactive .sidebar-tree-item.selected,
 .webkit-highlighted-line.webkit-line-content * {
   color: #121212 !important;
 }
+
+.glyph {
+  background-color: #aaa !important;
+}
+
+#sources-panel-sources-view .sources-status-bar {
+  background-color: #111;
+}
+
 /*exception icon state colors */
 .scripts-pause-on-exceptions-status-bar-item.toggled-all .glyph {
   background-color: #dc0303 !important;
 }
+button.status-bar-item.left-sidebar-show-hide-button, button.status-bar-item.right-sidebar-show-hide-button {
+  margin: 6px 7px !important;
+}
 .scripts-pause-on-exceptions-status-bar-item.toggled-uncaught .glyph {
   background-color: #d5bf00 !important;
+}
+button.status-bar-item.left-sidebar-show-hide-button > .glyph {
+  background-color: #aaa !important;
 }
 .webkit-highlighted-line {
   background-color: #e74c3c !important;
@@ -2049,21 +2067,26 @@ body.inactive .sidebar-tree-item.selected,
   background-color: inherit !important;
   line-height: inherit !important;
 }
+
+.tabbed-pane-header-tab .close-button-gray{
+  margin-left: 5px;
+  margin-top: 2px;
+}
 /**********************************************
 /* Sources Panel Controls
 /**********************************************/
 .scripts-status-bar {
-  background: #111 !important;
+  background: #222 !important;
   border-top: none !important;
   overflow: none !important;
 }
 #scripts-debug-toolbar,
 .scripts-debug-toolbar {
-  background: #111 !important;
+  background: #222 !important;
   border-bottom: 1px solid #1d1d1d !important;
 }
 .CodeMirror .webkit-html-message-bubble {
-  color: #111 !important;
+  color: #222 !important;
   border-radius: 2px !important;
   padding: 2px !important;
 }
@@ -2073,7 +2096,7 @@ body.inactive .sidebar-tree-item.selected,
 .CodeMirror-linewidget .source-frame-breakpoint-condition {
   border: 1px solid #6f6f6f !important;
   border-radius: 4px !important;
-  background: #111 !important;
+  background: #222 !important;
 }
 .CodeMirror-linewidget .source-frame-breakpoint-message {
   color: #e74c3c !important;
@@ -2144,7 +2167,7 @@ button.scripts-step-out:disabled .glyph {
 .sources-status-bar,
 .panel-status-bar,
 .resources-status-bar .status-bar {
-  background: #111;
+  background: #222;
   border-top: #222 !important;
 }
 .filter-bitset-filter li,
@@ -2201,7 +2224,7 @@ label.checkbox,
   color: #ccc !important;
 }
 .split-view-sidebar-right .pane .sidebar-separator {
-  background: #111 !important;
+  background: #222 !important;
   padding: 2px 5px !important;
   border-top: 1px solid #636363 !important;
   border-bottom: 1px solid black !important;
