@@ -647,67 +647,67 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 }
 /*--CSS--*/
 .cm-css-atom {
-  color: #cccccc !important;
+  color: #e74c3c !important;
 }
 .cm-css-builtin {
-  color: #ff9635 !important;
+  color: #3bd27b !important;
 }
 .cm-css-def {
-  color: #ff9635 !important;
+  color: #e74c3c !important;
 }
 .cm-css-comment {
   color: #676767 !important;
   font-style: italic;
 }
 .cm-css-meta {
-  color: #6aedff !important;
+  color: #e74c3c !important;
 }
 .cm-css-number {
-  color: #cccccc !important;
+  color: #e74c3c !important;
 }
 .cm-css-operator {
-  color: #cccccc !important;
+  color: #fff !important;
 }
 .cm-css-property {
-  color: #6aedff !important;
+  color: #3498db !important;
 }
 .cm-css-qualifier {
-  color: #ff9635 !important;
+  color: #c0392b !important;
 }
 .cm-css-string {
-  color: #e3b959 !important;
+  color: #f1c40f !important;
 }
 .cm-css-string-2 {
-  color: #cccccc !important;
+  color: #e74c3c !important;
 }
 .cm-css-tag {
-  color: #ff9635 !important;
+  color: #1abc9c !important;
 }
 .cm-css-variable {
-  color: #ff9635 !important;
+  color: #c0392b !important;
 }
 .cm-css-variable-2 {
-  color: #ff9635 !important;
+  color: #e74c3c !important;
 }
 /*--HTML--*/
 .cm-xml-comment {
-  color: #7c7c7c !important;
+  color: #606060 !important;
   font-style: italic !important;
 }
 .cm-xml-error {
-  color: #bf4c4c !important;
+  color: #e74c3c !important;
 }
 .cm-xml-string {
-  color: #f0874f !important;
+  color: #f1c40f !important;
 }
 .cm-xml-tag {
-  color: #49a6d2 !important;
+  color: #e74c3c !important;
 }
 .cm-xml-attribute {
-  color: #88aed5 !important;
+  color: #3bd27b !important;
 }
 .cm-xml-link {
-  color: #e3b959 !important;
+  color: #3498db !important;
 }
 .shadow-root .webkit-html-fragment.shadow-root {
   color: #ddbb00 !important;
