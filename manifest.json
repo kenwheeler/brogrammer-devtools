@@ -1,0 +1,7 @@
+{
+  "name": "brogrammer",
+  "version": "0.0.0",
+  "description": "Enable DevTools experiments in about:flags, toggle \"Allow UI themes\" experiment.",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2
+}
