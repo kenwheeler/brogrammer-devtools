@@ -740,7 +740,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 .webkit-html-tag {
   color: #fff !important;
 }
-.webkit-html-tag-name {
+.webkit-html-tag-name,.webkit-html-tag.close span {
   color: #e74c3c !important;
 }
 .webkit-html-text-node,
