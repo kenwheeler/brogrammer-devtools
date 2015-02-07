@@ -306,85 +306,85 @@
   background-color: #222222 !important;
 }
 /*--GLOBAL EDITOR STYLES--*/
-.cm-breakpoint .CodeMirror-gutter-elt {
+body /deep/ .cm-breakpoint .CodeMirror-gutter-elt {
   color: #000 !important;
   font-weight: 700 !important;
 }
-.CodeMirror-cursor {
+body /deep/ .CodeMirror-cursor {
   border-left: 1px solid #FFF !important;
 }
-.cm-error {
+body /deep/ .cm-error {
   background: #9D1E15 !important;
   border-radius: 2px !important;
   color: #eee !important;
 }
-.CodeMirror-gutter-elt {
+body /deep/ .CodeMirror-gutter-elt {
   color: #888888 !important;
 }
-.CodeMirror-gutters {
+body /deep/ .CodeMirror-gutters {
   background: #2c2c2c !important;
   border-right: 2px solid #2f2f2f !important;
 }
-.CodeMirror-selected {
+body /deep/ .CodeMirror-selected {
   background: #383838 !important;
   color: #eee !important;
 }
-.CodeMirror-matchingbracket {
+body /deep/ .CodeMirror-matchingbracket {
   color: #15ca1a !important;
   text-shadow: 0 0 3px #15ca1a !important;
   border-bottom: none !important;
 }
-.CodeMirror-nonmatchingbracket {
+body /deep/ .CodeMirror-nonmatchingbracket {
   color: #db0404 !important;
   text-shadow: 0 0 3px #db0404 !important;
   border-bottom: none !important;
 }
-span.CodeMirror-selectedtext {
+body /deep/ span.CodeMirror-selectedtext {
   background-color: #383838 !important;
 }
-.cm-search-highlight-start:before {
+body /deep/ .cm-search-highlight-start:before {
   border-color: #e74c3c !important;
 }
-.cm-search-highlight-end:before {
+body /deep/ .cm-search-highlight-end:before {
   border-color: #e74c3c !important;
 }
-.cm-search-highlight:before {
+body /deep/ .cm-search-highlight:before {
   border-color: #e74c3c !important;
   padding: 2px !important;
 }
-.cm-line-with-selection .cm-column-with-selection.cm-search-highlight:before {
+body /deep/ .cm-line-with-selection .cm-column-with-selection.cm-search-highlight:before {
   background-color: #2ecc71 !important;
   border-radius: 2px !important;
 }
-span.cm-token-highlight {
+body /deep/ span.cm-token-highlight {
   background-color: transparent !important;
   padding: 0px !important;
 }
-span.cm-token-highlight:before {
+body /deep/ span.cm-token-highlight:before {
   border-color: #e74c3c !important;
 }
-.cm-line-with-selection span.cm-column-with-selection {
+body /deep/ .cm-line-with-selection span.cm-column-with-selection {
   color: #000 !important;
   background-color: #2ecc71 !important;
 }
-.cm-whitespace:before {
+body /deep/ .cm-whitespace:before {
   color: #444 !important;
 }
-.cm-tab:before {
+body /deep/ .cm-tab:before {
   border-bottom: 1px solid #555 !important;
 }
-.cm-highlight {
+body /deep/ .cm-highlight {
   -webkit-animation: "fadeout-revised" 3s 0s !important;
   outline: 1px solid #2ecc71;
 }
-.cm-highlight *:not(.CodeMirror-linenumber) {
+body /deep/ .cm-highlight *:not(.CodeMirror-linenumber) {
   color: #e6e6e6 !important;
 }
-.cm-execution-line {
+body /deep/ .cm-execution-line {
   background-color: #c0392b !important;
   outline: 1px solid #2ecc71 !important;
 }
-.CodeMirror-linenumber {
+body /deep/ .CodeMirror-linenumber {
   border-right: none !important;
 }
 @-webkit-keyframes fadeout-revised {
@@ -723,105 +723,107 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 /* Code Highlighting [WEBKIT]
 /**********************************************/
 /*-- HTML --*/
-.webkit-html-attribute-name {
+
+body /deep/ .webkit-html-attribute-name {
   color: #2ecc71 !important;
 }
-.webkit-html-attribute-value {
+body /deep/ .webkit-html-attribute-value {
   color: #f1c40f !important;
 }
-.webkit-html-comment {
+body /deep/ .webkit-html-comment {
   color: #606060 !important;
   font-style: italic;
 }
-.webkit-html-resource-link,
-.webkit-html-external-link {
+body /deep/ .webkit-html-resource-link,
+body /deep/ .webkit-html-external-link {
   color: #3498db !important;
 }
-.webkit-html-tag {
+body /deep/ .webkit-html-tag {
   color: #fff !important;
 }
-.webkit-html-tag-name,.webkit-html-tag.close span {
+body /deep/ .webkit-html-tag-name,.webkit-html-tag.close span {
   color: #e74c3c !important;
 }
-.webkit-html-text-node,
-.webkit-html-css-node,
-.webkit-html-js-node {
+body /deep/ .webkit-html-text-node,
+body /deep/ .webkit-html-css-node,
+body /deep/ .webkit-html-js-node {
   color: #e74c3c !important;
 }
-.webkit-html-pseudo-element {
+body /deep/ .webkit-html-pseudo-element {
   color: #e67e22 !important;
 }
 /*-- CSS --*/
-.selector-matches {
+body /deep/ .selector-matches {
   color: #e74c3c !important;
 }
-.webkit-css-selector {
+body /deep/ .webkit-css-selector {
   color: #e74c3c !important;
 }
-.webkit-css-at-rule {
+body /deep/ .webkit-css-at-rule {
   color: #3498db !important;
 }
-.webkit-css-color {
+body /deep/ .webkit-css-color {
   color: #ff9635 !important;
 }
-.webkit-css-comment {
+body /deep/ .webkit-css-comment {
   color: #676767 !important;
 }
-.webkit-css-important {
+body /deep/ .webkit-css-important {
   color: #e74c3c !important;
 }
-.webkit-css-keyword {
+body /deep/ .webkit-css-keyword {
   color: #e74c3c !important;
 }
-.webkit-css-number {
+body /deep/ .webkit-css-number {
   color: #9b59b6 !important;
 }
-.webkit-css-property,
-.styles-section .properties > li .webkit-css-property {
+body /deep/ .webkit-css-property,
+body /deep/ .styles-section .properties > li .webkit-css-property {
   color: #2ecc71 !important;
   font-weight: 400;
 }
-.webkit-css-string {
+body /deep/ .webkit-css-string {
   color: #f1c40f !important;
 }
-.webkit-css-url {
+body /deep/ .webkit-css-url {
   color: #3498db !important;
 }
+
 /*-- JAVASCRIPT --*/
-.section .properties .name,
-.event-properties .name,
-.console-formatted-object .name {
+body /deep/ .section .properties .name,
+body /deep/ .event-properties .name,
+body /deep/ .console-formatted-object .name {
   color: #fff !important;
 }
-.console-formatted-object,
-.console-formatted-array {
+body /deep/ .console-formatted-object,
+body /deep/ .console-formatted-array {
   color: #7c7c7c !important;
 }
-.console-formatted-function {
+body /deep/ .console-formatted-function {
   color: #3498db !important;
 }
-.console-formatted-number {
+body /deep/ .console-formatted-number {
   color: #9b59b6 !important;
 }
-.console-formatted-boolean {
+body /deep/ .console-formatted-boolean {
   color: #9b59b6 !important;
 }
-.console-object-preview {
+body /deep/ .console-object-preview {
   color: #dddddd !important;
 }
-.console-formatted-regexp {
+body /deep/ .console-formatted-regexp {
   color: #3498db !important;
 }
-.console-formatted-string {
+body /deep/ .console-formatted-string {
   color: #f1c40f !important;
 }
-.console-formatted-undefined {
+body /deep/ .console-formatted-undefined {
   color: #ad4e4e !important;
 }
-.json .title {
+body /deep/ .json .title {
   color: #cccccc !important;
 }
-.json .separator {
+body /deep/ .json .separator {
   color: #737373 !important;
 }
 .popover .parent + .children.expanded,
